@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>AirtelQuery Custom PC | Best Gaming & Workstation PCs in Karnataka, Goa</title>
+    <meta name="description" content="AirtelQuery Custom PC offers high-performance custom PCs in Karnataka & Goa. Intel i7, H61, NVMe SSD builds from ₹16,000. Professional service & support.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Poppins', system-ui, -apple-system, 'Roboto', sans-serif;
+            background: #0a0c10;
+            color: #eef2ff;
+            line-height: 1.5;
+            scroll-behavior: smooth;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header / Nav */
+        header {
+            background: #0f1117e6;
+            backdrop-filter: blur(12px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid #2d2f3a;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 0;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .logo h1 {
+            font-size: 1.7rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #c084fc, #60a5fa);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            letter-spacing: -0.3px;
+        }
+
+        .logo p {
+            font-size: 0.8rem;
+            color: #94a3b8;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #cbd5e6;
+            font-weight: 500;
+            transition: 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: #a855f7;
+        }
+
+        .btn-contact {
+            background: #3b3f5c;
+            padding: 8px 20px;
+            border-radius: 40px;
+            font-weight: 600;
+        }
+
+        .btn-contact:hover {
+            background: #a855f7;
+            color: white;
+        }
+
+        /* Hero */
+        .hero {
+            padding: 70px 0 50px;
+            background: radial-gradient(circle at 80% 20%, #141824, #0a0c10);
+        }
+
+        .hero-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .hero-text {
+            flex: 1;
+        }
+
+        .hero-text h2 {
+            font-size: 2.7rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .hero-text .highlight {
+            color: #c084fc;
+            border-bottom: 2px solid #c084fc;
+        }
+
+        .region-badge {
+            display: inline-block;
+            background: #1e293b;
+            padding: 6px 14px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        .stat {
+            font-weight: 700;
+        }
+
+        .stat span {
+            font-size: 1.6rem;
+            color: #c084fc;
+            display: block;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background: #a855f7;
+            color: white;
+            padding: 12px 28px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.2s;
+            display: inline-block;
+            box-shadow: 0 4px 12px #a855f770;
+        }
+
+        .btn-primary:hover {
+            background: #7c3aed;
+            transform: translateY(-2px);
+        }
+
+        .btn-outline {
+            border: 1px solid #a855f7;
+            color: #e2e8f0;
+            padding: 12px 28px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .hero-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        .hero-image i {
+            font-size: 12rem;
+            color: #2d2f42;
+        }
+
+        /* Builds Section */
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin: 60px 0 30px;
+            font-weight: 700;
+        }
+
+        .section-title span {
+            background: linear-gradient(120deg, #c084fc, #818cf8);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .pc-card {
+            background: #111318;
+            border-radius: 28px;
+            padding: 28px;
+            width: 320px;
+            border: 1px solid #232632;
+            transition: all 0.25s;
+            box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
+        }
+
+        .pc-card:hover {
+            border-color: #a855f7;
+            transform: translateY(-6px);
+        }
+
+        .price {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #facc15;
+            margin: 15px 0;
+        }
+
+        .pc-card ul {
+            list-style: none;
+            margin: 20px 0;
+        }
+
+        .pc-card li {
+            margin: 12px 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .pc-card li::before {
+            content: "⚡";
+            color: #c084fc;
+        }
+
+        .btn-order {
+            display: block;
+            text-align: center;
+            background: #1e1f2c;
+            padding: 12px;
+            border-radius: 40px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+
+        .btn-order:hover {
+            background: #a855f7;
+        }
+
+        /* Services Section */
+        .services-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+            margin: 40px 0;
+        }
+
+        .service-item {
+            background: #0f1117;
+            padding: 24px;
+            border-radius: 28px;
+            text-align: center;
+            width: 240px;
+            border: 1px solid #262a38;
+        }
+
+        /* Contact Form + Info */
+        .contact-wrap {
+            background: #0d0f15;
+            border-radius: 40px;
+            padding: 40px;
+            margin: 50px 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            border: 1px solid #262a38;
+        }
+
+        .contact-info {
+            flex: 1;
+        }
+
+        .contact-info h3 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .contact-detail {
+            margin: 25px 0;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 1.1rem;
+        }
+
+        .contact-form {
+            flex: 1;
+        }
+
+        .form-group {
+            margin-bottom: 18px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 14px 18px;
+            background: #181c26;
+            border: 1px solid #2d3243;
+            border-radius: 28px;
+            color: white;
+            font-size: 1rem;
+        }
+
+        textarea {
+            border-radius: 24px;
+            resize: vertical;
+        }
+
+        button {
+            background: #a855f7;
+            border: none;
+            padding: 14px 28px;
+            border-radius: 40px;
+            color: white;
+            font-weight: bold;
+            font-size: 1rem;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            border-top: 1px solid #1f2330;
+            margin-top: 40px;
+            color: #7f8ea3;
+        }
+
+        @media (max-width: 780px) {
+            .hero-text h2 {
+                font-size: 2rem;
+            }
+            nav {
+                flex-direction: column;
+            }
+            .contact-wrap {
+                padding: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>AirtelQuery Custom PC</h1>
+                    <p>Karnataka | Goa | Performance Redefined</p>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#builds">Builds</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact" class="btn-contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <div class="region-badge">📍 Serving Karnataka & Goa | On-site support</div>
+                    <h2>Custom PCs Built for <span class="highlight">Gamers & Pros</span></h2>
+                    <p>Intel i7, H61 motherboard, 256GB NVMe SSD — lightning fast. Trusted by 500+ customers. Get your dream PC today.</p>
+                    <div class="hero-stats">
+                        <div class="stat"><span>500+</span> PCs Built</div>
+                        <div class="stat"><span>4.9★</span> Rating</div>
+                    </div>
+                    <div class="btn-group">
+                        <a href="#builds" class="btn-primary">Explore Builds</a>
+                        <a href="#contact" class="btn-outline">Get Quote</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- SVG/icon representation -->
+                    <svg width="280" height="220" viewBox="0 0 200 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="30" y="50" width="140" height="80" rx="12" fill="#1F2937" stroke="#A855F7" stroke-width="2"/>
+                        <rect x="50" y="70" width="100" height="8" fill="#3B82F6" rx="4"/>
+                        <rect x="50" y="88" width="80" height="8" fill="#94A3B8" rx="4"/>
+                        <rect x="50" y="106" width="90" height="8" fill="#A855F7" rx="4"/>
+                        <circle cx="100" cy="140" r="14" fill="#2D3748" stroke="#A855F7" stroke-width="2"/>
+                        <rect x="80" y="40" width="40" height="20" rx="4" fill="#1E293B" stroke="#A855F7"/>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- PC Builds (i7 + H61 + NVMe) -->
+        <div class="container" id="builds">
+            <h2 class="section-title"><span>⚡ Performance Builds</span> (i7 | H61 | NVMe SSD)</h2>
+            <div class="cards">
+                <!-- Build 1: 16k -->
+                <div class="pc-card">
+                    <h3>Essential Creator</h3>
+                    <div class="price">₹16,000/-</div>
+                    <ul>
+                        <li>Intel Core i7 (2nd/3rd Gen)</li>
+                        <li>H61 Motherboard</li>
+                        <li>256GB NVMe SSD</li>
+                        <li>8GB DDR3 RAM</li>
+                        <li>450W PSU + Cabinet</li>
+                        <li>Windows / Linux Ready</li>
+                    </ul>
+                    <a href="#contact" class="btn-order">Customize →</a>
+                </div>
+                <!-- Build 2: 25k -->
+                <div class="pc-card">
+                    <h3>Pro Workstation</h3>
+                    <div class="price">₹25,000/-</div>
+                    <ul>
+                        <li>Intel Core i7 (3rd Gen)</li>
+                        <li>H61 Motherboard</li>
+                        <li>256GB NVMe SSD</li>
+                        <li>16GB DDR3 RAM</li>
+                        <li>1TB HDD + 550W PSU</li>
+                        <li>WiFi + RGB Case</li>
+                    </ul>
+                    <a href="#contact" class="btn-order">Customize →</a>
+                </div>
+                <!-- Build 3: 30k -->
+                <div class="pc-card">
+                    <h3>Ultra Gaming/Editing</h3>
+                    <div class="price">₹30,000/-</div>
+                    <ul>
+                        <li>Intel Core i7 (4th Gen)</li>
+                        <li>H61 Motherboard (USB 3.0)</li>
+                        <li>256GB NVMe SSD + 512GB HDD</li>
+                        <li>16GB DDR3 RAM</li>
+                        <li>GT 1030 2GB Graphics</li>
+                        <li>650W PSU + Tempered Glass</li>
+                    </ul>
+                    <a href="#contact" class="btn-order">Customize →</a>
+                </div>
+            </div>
+            <p style="text-align: center; margin-top: 20px; color:#94a3b8;">*All builds include professional assembly, testing & 1 year warranty (Karnataka/Goa).</p>
+        </div>
+
+        <!-- Services -->
+        <div class="container" id="services">
+            <h2 class="section-title"><span>🛠️ Our Services</span> in Karnataka & Goa</h2>
+            <div class="services-grid">
+                <div class="service-item">🔧 Custom PC Assembly</div>
+                <div class="service-item">⚡ NVMe Upgrade / Repair</div>
+                <div class="service-item">🖥️ PC Troubleshooting</div>
+                <div class="service-item">🎮 Gaming Rig Optimization</div>
+                <div class="service-item">📦 On-site Service (Select cities)</div>
+                <div class="service-item">💻 Bulk PC for Offices/Cyber Cafe</div>
+            </div>
+        </div>
+
+        <!-- Contact + Form -->
+        <div class="container" id="contact">
+            <div class="contact-wrap">
+                <div class="contact-info">
+                    <h3>📞 Get in Touch</h3>
+                    <p>Call or WhatsApp for custom quotes, bulk orders, or service requests. We reply within 2 hours.</p>
+                    <div class="contact-detail">📱 <strong>+91 77955 77535</strong></div>
+                    <div class="contact-detail">✉️ <strong>huntersec03@gmail.com</strong></div>
+                    <div class="contact-detail">📍 Service areas: Bengaluru, Mysuru, Mangaluru, Hubli, Panaji, Vasco, Margao</div>
+                    <div style="margin-top: 25px; background:#1e1f2c; padding:15px; border-radius:24px;">
+                        ⭐ <strong>Why AirtelQuery Custom PC?</strong><br>
+                        - Transparent pricing<br>
+                        - Genuine parts & i7/H61 combos<br>
+                        - Post-sales support 7 days
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Build Your PC / Request Service</h3>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <input type="text" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="4" placeholder="Tell us your budget, preferred build (16k/25k/30k) or service needed..."></textarea>
+                        </div>
+                        <button type="submit">Send Message →</button>
+                        <p style="font-size: 0.75rem; margin-top: 12px; text-align:center;">We'll reach out within 24 hrs (Email/WhatsApp)</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 AirtelQuery Custom PC — Serving Karnataka & Goa with high-performance i7, H61, NVMe builds.<br>
+        Contact: 7795577535 | huntersec03@gmail.com | Based in Bengaluru</p>
+    </footer>
+
+    <!-- Simple form alert (since backend not required, shows demo) -->
+    <script>
+        document.querySelector('form')?.addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('✅ Thank you! AirtelQuery Custom PC team will contact you soon at your email/phone. (Demo submission)');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
